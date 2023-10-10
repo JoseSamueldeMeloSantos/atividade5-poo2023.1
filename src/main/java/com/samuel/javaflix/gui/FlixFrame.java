@@ -1,7 +1,7 @@
 package com.samuel.javaflix.gui;
 
 import com.samuel.javaflix.controllers.MenuController;
-import com.samuel.javaflix.model.SystemJavaFlix;
+import com.samuel.javaflix.model.JavaFlixSystem;
 
 import javax.swing.*;
 
@@ -20,11 +20,11 @@ public class FlixFrame extends javax.swing.JFrame {
     private javax.swing.JButton showAllMoviesB;
     private javax.swing.JLabel title;
 
-    private SystemJavaFlix systemJF;
+    private JavaFlixSystem systemJF;
 
 
     public FlixFrame() {
-        this.systemJF = new SystemJavaFlix();
+        this.systemJF = new JavaFlixSystem();
         initComponents();
         initEvents();
     }

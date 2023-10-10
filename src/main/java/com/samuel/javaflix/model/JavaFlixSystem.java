@@ -18,12 +18,12 @@ import java.util.Map;
  *
  * This class it is in charge to control all movies in system
  */
-public class SystemJavaFlix implements JavaFlixOperations {
+public class JavaFlixSystem implements JavaFlixOperations {
 
     private Map<String, Movie> movies = new HashMap<>();
     private DataRecorder dr = new DataRecorder();
 
-    public SystemJavaFlix() {
+    public JavaFlixSystem() {
         recorverData();
     }
 

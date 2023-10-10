@@ -6,7 +6,7 @@ import com.samuel.javaflix.exceptions.MovieAlreadyExistException;
 import com.samuel.javaflix.exceptions.MovieDoesNotExistException;
 import com.samuel.javaflix.gui.FlixFrame;
 import com.samuel.javaflix.model.Movie;
-import com.samuel.javaflix.model.SystemJavaFlix;
+import com.samuel.javaflix.model.JavaFlixSystem;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -19,10 +19,10 @@ import java.util.List;
  */
 public class MenuController implements ActionListener {
 
-    private SystemJavaFlix systemJF;
+    private JavaFlixSystem systemJF;
     private FlixFrame flixf;
 
-    public MenuController(SystemJavaFlix systemJF, FlixFrame flixf) {
+    public MenuController(JavaFlixSystem systemJF, FlixFrame flixf) {
         this.systemJF = systemJF;
         this.flixf = flixf;
     }
